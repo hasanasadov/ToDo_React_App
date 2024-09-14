@@ -34,7 +34,7 @@ function App() {
                         Hasanali Asadov{" "}
                     </a>
                 </p>
-                <a href="https://github.com/hasanasadov/Code_Academy_ToDo">
+                <a href="https://github.com/hasanasadov/ToDo_React_App">
                     Source Code
                 </a>
             </footer>
