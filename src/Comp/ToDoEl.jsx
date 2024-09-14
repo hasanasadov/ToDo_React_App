@@ -37,7 +37,7 @@ function ToDoEl({ id, checked, task, setData, hide }) {
                     checked={checked}
                     onChange={handleChange}
                 />
-                <span className={`notchecked ${checked ? "completed" : ""}`}>
+                <span className={`${checked ? "completed" : ""}`}>
                     {task}
                 </span>
             </div>

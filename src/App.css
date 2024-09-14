@@ -87,12 +87,14 @@ li {
         font-size: 1.4rem;
         color: #444;
         font-weight: 500;
-        width: 100%;
+        transition: all 1s;
+        width: calc(100% - 3em);
+        line-break: anywhere;
     }
 }
 
 .toggle {
-    width: 2em;
+    width: 2em ;
     height: 2em;
     background-color: white;
     border-radius: 50%;
@@ -220,7 +222,7 @@ footer {
     display: block;
 }
 
-.checked {
+.completed {
     color: #999 !important;
     text-decoration: line-through;
     transition: all 1s;
