@@ -61,6 +61,7 @@ h1 {
 
 ul {
     list-style: none;
+    width: 100%;
 }
 
 li {
@@ -71,6 +72,7 @@ li {
     justify-content: space-between;
     padding: 1rem 0.5rem;
     border-bottom: 1px solid #ddd;
+    width: 100%;
 }
 
 .li-left {
@@ -85,6 +87,7 @@ li {
         font-size: 1.4rem;
         color: #444;
         font-weight: 500;
+        width: 100%;
     }
 }
 
