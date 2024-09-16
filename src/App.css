@@ -91,6 +91,7 @@ li {
         font-weight: 500;
         transition: all 1s;
         line-break: anywhere;
+        width: 90%;
     }
 }
 
