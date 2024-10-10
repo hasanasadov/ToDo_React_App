@@ -2,4 +2,4 @@
 
 # Deploy link
 
-hastodo.netlify.app
+hastodo.netlify.app  and hastodo.vercel.app
