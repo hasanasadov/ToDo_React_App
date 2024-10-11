@@ -18,7 +18,6 @@ function ToDoEl({ id, checked, task, hide, handleAction }) {
 
   //! ------------------ Set States ------------------ !//
   const handleEditClick = () => {
-    inputRef.focus();
     setClickOnEdit(true);
   };
 
