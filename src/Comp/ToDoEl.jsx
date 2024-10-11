@@ -36,6 +36,12 @@ function ToDoEl({ id, checked, task, hide, handleAction }) {
       setClickOnEdit(false);
     }
   };
+  
+  useEffect(() => {
+    if (clickOnEdit && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [clickOnEdit]);
 
   return (
     <li
